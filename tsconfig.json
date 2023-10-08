@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "./src/baseTypes",
+    "rootDir": "./src",
     "outDir": "./dist",
     "allowJs": false,
     "allowSyntheticDefaultImports": true,

@@ -5,9 +5,12 @@
 type page = {
   title: string;
   likes: number;
-  accounts: any;
+  accounts: string[];
   status: string;
-  details?: {};
+  details?: {
+    createAt: Date;
+    updateAt: Date;
+  };
 };
 
 const page1 = {
